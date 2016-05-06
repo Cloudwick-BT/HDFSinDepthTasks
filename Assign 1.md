@@ -58,6 +58,7 @@ echo $((total/number))
 
 ####5. Working with ACLs
   ![Creation of user with respective groups](https://github.com/Cloudwick-BT/HDFSinDepthTasks/blob/master/screenshots/2_e_3users.png?raw=true)
+  Add property to _hdfs-site.xml_
   ![Add property for ACL](https://github.com/Cloudwick-BT/HDFSinDepthTasks/blob/master/screenshots/2_e_aclproperty.png?raw=true)
   ![Restart namenode](https://github.com/Cloudwick-BT/HDFSinDepthTasks/blob/master/screenshots/2_e_startnamenode.png?raw=true)
   ![Give ACL permission](https://github.com/Cloudwick-BT/HDFSinDepthTasks/blob/master/screenshots/2_e_acl.png?raw=true)
