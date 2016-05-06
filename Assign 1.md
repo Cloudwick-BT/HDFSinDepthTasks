@@ -13,7 +13,7 @@
   * Edits are being stored in journal node directory.
 
   * Shell script to calculate average time of edit log creation. This script will give time in seconds when run in folder where edit log is stored.
-'''sh
+```sh
 #!/bin/bash
 current=0
 total=0
@@ -32,7 +32,7 @@ done
 
 number=$(($(ls | grep edits | wc -l)-1))
 echo $((total/number))
-'''
+```
 
   * There were two fsimage, where first one is copy of fsimage before rollback. So the difference between timing of two fsimage is frequency of edits rollback.
   ![Image of edit rollback](https://github.com/Cloudwick-BT/HDFSinDepthTasks/blob/master/screenshots/1_b_editlog.png?raw=true)
@@ -53,7 +53,7 @@ echo $((total/number))
   ![Image of userB being denied](https://github.com/Cloudwick-BT/HDFSinDepthTasks/blob/master/screenshots/2_c_userB.png?raw=true)
 
 ####4. Let userB access the files
-  * First we will create a group and add that user to the created group and then we will give group permission to the respective file.
+  First we will create a group and add that user to the created group and then we will give group permission to the respective file.
   ![Image of group creation](https://github.com/Cloudwick-BT/HDFSinDepthTasks/blob/master/screenshots/2_d_add_Group.png?raw=true)
 
 ####5. Working with ACLs
