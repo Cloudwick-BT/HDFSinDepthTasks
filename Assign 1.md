@@ -57,10 +57,13 @@ echo $((total/number))
   * ![Image of group creation](https://github.com/Cloudwick-BT/HDFSinDepthTasks/blob/master/screenshots/2_d_add_Group.png?raw=true)
 
 ####5. Working with ACLs
+  * Create group
   * ![Creation of user with respective groups](https://github.com/Cloudwick-BT/HDFSinDepthTasks/blob/master/screenshots/2_e_3users.png?raw=true)
   * Add property to _hdfs-site.xml_
   * ![Add property for ACL](https://github.com/Cloudwick-BT/HDFSinDepthTasks/blob/master/screenshots/2_e_aclproperty.png?raw=true)
+  * Start namenode
   * ![Restart namenode](https://github.com/Cloudwick-BT/HDFSinDepthTasks/blob/master/screenshots/2_e_startnamenode.png?raw=true)
+  * Give ACL permission
   * ![Give ACL permission](https://github.com/Cloudwick-BT/HDFSinDepthTasks/blob/master/screenshots/2_e_acl.png?raw=true)
   *![Check ACL permission](https://github.com/Cloudwick-BT/HDFSinDepthTasks/blob/master/screenshots/2_e_acl_check.png?raw=true)
 
