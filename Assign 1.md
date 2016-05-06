@@ -3,6 +3,7 @@
 ####1. Location of block details
   
   `[root@bmaster2 ~]# sudo -u hdfs hdfs fsck /weather -files -blocks -locations`
+  ![Screenshot of fsck](https://github.com/Cloudwick-BT/HDFSinDepthTasks/blob/master/screenshots/1_block_location.png?raw=true)
 
 ####2. Location of Namenode directory
 
